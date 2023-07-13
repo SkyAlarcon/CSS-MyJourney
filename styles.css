@@ -87,13 +87,33 @@ main {
     padding-right: 30px;
 }
 
-.journey-links:hover {
+.journey-links:hover, .net-links:hover {
     color: #fc90fb;
 }
 
 .network-imgs {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.network-p {
+    width: 200px;
+    text-align: center;
+}
+
+.network-container {
+    border: 1px solid #fc90fb;
+    border-radius: 15px;
+    background-color: #0c0c0c;
+    height: 450px;
+    width: 300px;
+    margin: 15px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
 }
