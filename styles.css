@@ -1,3 +1,7 @@
+:root {
+    --transparent: rgba(0,0,0,0)
+}
+
 * {
     color: #f8f8f8;
     background-color: #0c0c0c;
@@ -59,31 +63,42 @@ aside * {
 }
 
 main {
+
+    background-image: linear-gradient(to left, #262626, #0c0c0c 98% ,#262626);
     display: flex;
     flex-direction: column;
-
     padding-left: 40px;
     padding-top: 40px;
 }
 
 .welcome, .journey, .networking {
     margin: 15px;
+    background-color: var(--transparent);
 }
 
 .welcome-title, .journey-title, .networking-title {
     margin-bottom: 5px;
+    background-color: var(--transparent);
+}
+
+.welcome-info-container, .welcome-info-location, .welcome-info-phone, .welcome-info-email {
+    background-color:  var(--transparent);
 }
 
 .welcome-p {
     margin-bottom: 5px;
+    background-color: var(--transparent);
+
 }
 
 .welcome-icon {
     margin-left: 25px;
     margin-right: 5px;
+    background-color: var(--transparent);
 }
 
 .journey-p {
+    background-color: var(--transparent);
     padding-right: 30px;
 }
 
@@ -96,6 +111,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    background-color: var(--transparent);
 }
 
 .network-p {
